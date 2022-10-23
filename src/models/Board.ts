@@ -10,7 +10,7 @@ export class Board {
         if ((i + j) % 2 !== 0) {
           row.push(new Cell(this, j, i, Colors.BLACK, null));
         } else {
-          row.push(new Cell(this, j, i, Colors.BLACK, null));
+          row.push(new Cell(this, j, i, Colors.WHITE, null));
         }
       }
       this.cells.push(row);
